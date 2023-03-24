@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="boton">
-    <button>Nueva tarea</button>
+        <button id="crear"> CREAR</button>
     </header>
-    <div class="box">
-        <form action="">
-    
-        <label for="">Nombre</label><input type="text" id="Nombre">
+    <div class="box" id="box">
+        <form action="" method="get">
+            <h1>FORMULARIO</h1>
+            <div class="input1">
 
-        <label for="">Descripcion</label><input type="text" id="Descripcion">
-        <button id="btn-form">Agregar</button>
+                <label for="">Nombre:</label><input type="text" id="Nombre">
+            </div>
+            <div class="input2">
+                <label for="">Apellido:</label><input type="text" id="Descripcion">
+            </div>
+            <div class="boton-agregar">
+
+                <button>Agregar</button>
+            </div>
         </form>
-       
 
-
-    </div>
-    <div class="tarea" id="tarea">
 
 
     </div>
+    
 
 
 
 
     <script src="./main.js"></script>
 </body>
+
 </html>
