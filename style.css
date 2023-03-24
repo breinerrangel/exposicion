@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid;
+    margin: 81px auto;
+    width: 500px;
+    height: 500px;
+}
+.boton{
+   
+    display: flex;
+    justify-content: flex-end;
+}
+.boton button{
+    padding: 12px ;
+    border-radius: 25px;
+    width: 200px;
+}
