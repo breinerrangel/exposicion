@@ -11,7 +11,14 @@
 
 <body>
     <header class="boton">
-        <button id="crear"> CREAR</button>
+        <div class="buscador">
+            <input type="text" id="encontar">
+            <button id="buscar">Buscar</button>
+        </div>
+        <div class="crear">
+            <button id="crear"> CREAR</button>
+        </div>
+        
     </header>
     <main class="super-box">
         <div class="demoracion">
@@ -26,23 +33,23 @@
                 <div class="informacion">
                     <div class="input1">
 
-                        <label for="" id="label-nombre">Nombre:</label><input type="text" id="Nombre">
+                        <label for="" id="label-nombre">Nombre:</label><input type="text" id="nombre">
                     </div>
                     <div class="input2">
-                        <label for="">Apellido:</label><input type="text" id="Apellido">
+                        <label for="">Apellido:</label><input type="text" id="apellido">
                     </div>
                     <div class="input3">
-                        <label for="">Gustos</label><input type="text" id="gustos">
+                        <label for="">Nacimiento</label><input type="date" id="nacimiento">
                     </div>
                     <div class="input4">
-                        <label for="">Numero telefonico</label><input type="number" id="telefono">
+                        <label for="">Cedula</label><input type="number" id="cedula">
                     </div>
                 </div>
                 <label for="checkbox">Aceptar terminos y condiciones</label> <input type="checkbox" id="checkbox"
                     style="margin-top: 10px;">
                 <div class="boton-agregar">
 
-                    <button>Agregar</button>
+                    <button id="agregar">Agregar</button>
                 </div>
             </form>
 

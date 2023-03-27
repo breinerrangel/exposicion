@@ -41,15 +41,44 @@ body{
 .boton{
    
     display: flex;
-    justify-content: flex-end;
+   
     margin-top: 10px;
     padding-right: 25px;
   
 }
-.boton button{
+.crear button{
     padding: 12px ;
     border-radius: 25px;
-    width: 15%;
+    width: 90%;
+    border: none;
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.288);
+    background-color: rgb(13, 202, 202) ;
+    color: white;
+    font-size: 18px;
+
+}
+.crear{
+    width: 20%;
+    
+}
+.buscador{
+    
+    width: 80%;
+  
+    padding-left: 110px;
+}
+.buscador input{
+    border-radius: 25px ;
+    width: 50%;
+    padding: 12px;
+    margin-left: 50px;
+    border: none;
+    font-size: 18px;
+}
+.buscador button{
+    padding: 12px ;
+    border-radius: 25px;
+    width: 20%;
     border: none;
     box-shadow: 3px 5px 5px 3px rgba(0, 0, 0, 0.288);
     background-color: rgb(13, 202, 202) ;
